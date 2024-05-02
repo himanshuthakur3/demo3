@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    box-shadow: 0px -4px 10px 7px rgb(120, 118, 118);
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color: #ccebff;
+    display: flex;
+    border: 2px solid #ccebff;
+    justify-content: space-around;
+    align-items: center;
+    font: 154px;
+    padding: 14px;
+}
+.logo{
+
+}
+.logo1 img{
+    width: 164px;
+}
+.right ul{
+    display: flex;
+    gap: 62px;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right ul li{
+        list-style: none;
+}
+.right ul li:hover{
+    color: grey;
+}
+.right ul li span{
+    padding: 5px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 390px;
+    padding-bottom: 14px;
+    box-shadow:  1px 5px 10px 7px grey;
+    margin: 31px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.image img {
+    padding: 14px 14px;
+    
+    
+}
+img {
+    border-radius: 20px;
+}
+.image img:hover{
+    opacity: 0.6;
+}
+
+.capsule {
+    margin-left: 10px;
+    margin-top: 4px;
+    position: relative;
+    top: 1px;
+    left: 35px;
+
+
+}
+
+.capsule span {
+    border: 1px solid black;
+    border-radius: 53px;
+    display: inline-block;
+    width: 65px;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    font-family: 'baloo bhai 2';
+
+}
+
+.head {
+    position: relative;
+    top: 0px;
+    left: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.content p {
+    margin-top: 1px;
+    color: grey;
+}
+
+.content {
+    text-align: left;
+    font-size: 16px;
+    padding: 19px;
+    position: relative;
+    top: 1px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+
+    border-radius: 23px;
+    border: 0px solid;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
+    color: #0066ff;
+    background-color: #ccebff;
+    cursor: pointer;
+}
+
+.button :hover{
+    color: #80abea;
+    background-color: white;
+}
+.logo2{
+    position: fixed;
+    bottom: 34px;
+    right: 14px;
+}
+
+@media only screen and (max-width: 713px) {
+            .right ul{
+                display: none;
+                visibility: hidden;
+            }
+    
+}
